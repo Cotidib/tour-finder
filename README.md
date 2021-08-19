@@ -6,7 +6,7 @@ This is my version of the Tour Finder project in ['Code 15 React Projects' cours
 ### Overview and learnings
 Tour Finder is a simple app that recommends tours.
 
-The main React functionality I learned are data fetching from external API, prop drilling, adding a loading page and a refresh feature.
+The main React functionalities I learned are data fetching from external API, prop drilling, adding a loading page and a refresh feature.
 I made my own setup, styling and for future development I will add a filter system to search for a certain price or amount of days among the tours fetched.
 
 ### Live Site
