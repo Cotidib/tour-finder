@@ -1,7 +1,7 @@
 # tour-finder
 Practice project made with React Js and React Hooks
 
-This is my version of the Tour Finder project in ['Code 15 React Projects' course by John Smilga](https://youtu.be/a_7Z7C_JCyo), following the practice of "Watch and then Do". 
+This is my version of the Tour Finder project in ['Code 15 React Projects' course by John Smilga](https://youtu.be/a_7Z7C_JCyo).
 
 ### Overview and learnings
 Tour Finder is a simple app that recommends tours.
