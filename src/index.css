@@ -1,0 +1,123 @@
+body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #d9e7ff;
+}
+
+.tours-header{
+  font-family: 'Kaushan Script', cursive;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+  background-color: white;
+  margin-top: 0px;
+  padding: 10px;
+  
+}
+
+.list{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.tour-container{
+  width: 480px;
+  margin: 15px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.tour-image{
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+
+}
+
+.info-container{
+  padding: 25px;
+}
+
+.info-header{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.tour-name{
+  font-family: 'Work Sans', sans-serif;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.tour-info{
+  font-family: 'Work Sans', sans-serif;
+}
+
+.tour-price{
+  font-family: 'Karla', sans-serif;
+  padding: 4px;
+  background-color: #d9e7ff;
+  color: #639af2;
+  font-weight: bold;
+}
+
+.read-btn{
+  border: none;
+  background-color: transparent;
+  text-decoration: none;
+  cursor: pointer;
+  color: #0645AD;
+}
+
+.remove-btn{
+  position: absolute;
+  background-color: transparent;
+  text-decoration: none;
+  border: 2px solid white;
+  color: white;
+  cursor: pointer;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  width: 30px;
+  height: 30px;
+  font-size: 20px;
+
+}
+
+.loading-page{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.spinner{
+  color: #639af2;
+  font-size: 150px;
+}
+
+.refresh-page{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.refresh-btn{
+  background-color: transparent;
+  text-decoration: none;
+  border: none;
+  color: white;
+  font-size: 150px;
+  cursor: pointer;
+}
